@@ -1,0 +1,1 @@
+addSbtPlugin("io.github.knoldus" % "codesquad-sbt-plugin" % "0.2.1")
