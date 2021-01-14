@@ -24,3 +24,5 @@ lazy val rest = project.in(file("rest"))
             "com.typesafe.akka" %% "akka-testkit" % "2.6.10" % Test
         )
     )
+
+lazy val root = project.in(file("root")).aggregate(common, rest)
